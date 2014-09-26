@@ -1,0 +1,32 @@
+{
+  "name": "pdfjs",
+  "version": "1.0.833",
+  "homepage": "https://github.com/joseym/pdfjs-bower",
+  "authors": [
+    "Eduardo Luis Buratti <root@bazk.me>"
+  ],
+  "description": "Bower build for mozilla/pdf.js.",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "pdf",
+    "mozilla",
+    "viewer"
+  ],
+  "license": "GPLv3",
+  "main": [
+    "./dist/pdf.js",
+    "./dist/pdf.worker.js",
+    "./dist/compatibility.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "pdfjs",
+    "Gruntfile.js",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
